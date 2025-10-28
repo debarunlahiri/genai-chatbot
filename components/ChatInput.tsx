@@ -39,7 +39,7 @@ export const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage, isLoading }
                     value={input}
                     onChange={(e) => setInput(e.target.value)}
                     onKeyDown={handleKeyDown}
-                    placeholder="Message Gemini..."
+                    placeholder="Message Helper..."
                     rows={1}
                     className="w-full bg-slate-900 border border-slate-700 text-slate-200 rounded-full py-3 px-6 pr-16 resize-none focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-purple-600 disabled:opacity-50 transition-all duration-200"
                     disabled={isLoading}

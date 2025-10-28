@@ -17,7 +17,7 @@ const WelcomeScreen = ({ onPromptClick }: { onPromptClick: (prompt: string) => v
             <div className="w-16 h-16 mb-4">
                 <GeminiIcon className="w-full h-full" />
             </div>
-            <h1 className="text-4xl font-bold text-slate-100 mb-2">Hello, I'm Gemini</h1>
+            <h1 className="text-4xl font-bold text-slate-100 mb-2">Hello, I'm Helper</h1>
             <p className="text-lg text-slate-400 mb-8">How can I help you today?</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl w-full">
                 {examplePrompts.map((prompt, i) => (
@@ -117,7 +117,7 @@ const App: React.FC = () => {
                 <div className="w-8 h-8">
                     <GeminiIcon className="w-full h-full" />
                 </div>
-                <h1 className="text-xl font-semibold">Gemini AI Chat</h1>
+                <h1 className="text-xl font-semibold">Helper</h1>
             </header>
             
             {messages.length === 0 ? (
